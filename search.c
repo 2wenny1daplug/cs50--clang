@@ -13,9 +13,12 @@ int main(void)
         if (numbers[i] == n)
         {
             printf("Found\n");
-            return 0;
+            return 0; 
         }
     }
     printf("Not found\n");
     return 1;
-}
+} 
+
+// the line beginning with int numbers[] allows us to define the values of each element of the array as we create it.
+//Then, in the for loop, we have an implementation of linear search.
